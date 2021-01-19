@@ -7,6 +7,7 @@
 {
     background-color:#fff0f4;
     font-size: 100%;
+    max-width: 100%; /*mad img width*/
 }
 
 h2, h3, p
@@ -64,7 +65,7 @@ header p
     display:flex;
     justify-content:space-evenly;
     text-align:center;
-    margin:20px 10%;
+    /* margin:20px 10%; */
 }
 
 .exampleprojects img
@@ -131,19 +132,22 @@ footer a
 
     .exampleprojects
     {
-        display:block;
-        margin-left:20%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
         text-align:center;
     }
 
     .exampleprojects .imgholder
     {
-        width:20%;
+        width:100%;
+        margin:20%;
     }
 
     .exampleprojects img
     {
-        width:400%;
+
+        width:300%;
         margin:0;
     }
 
