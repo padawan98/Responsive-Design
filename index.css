@@ -46,7 +46,22 @@ header nav a
     border-radius:50px;
     margin:20px;
     padding:5px 15px;
+    transition:.5s;
 }
+
+header nav a:hover
+{
+    background:white;
+    color:#fcd9e3;
+    /* transform:rotate(3deg); */
+}
+/* header nav a .navindex
+{
+    background-color:white;
+    color:#fff0f4;
+
+} */
+
 header p
 {
     margin:50px 20%;
