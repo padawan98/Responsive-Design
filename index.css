@@ -1,0 +1,177 @@
+/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+
+*
+{
+    background-color:#fff0f4;
+    font-size: 100%;
+}
+
+h2, h3, p
+{
+    color:#b0b0b0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1
+{
+    color:#b0b0b0;
+    font-family: 'Kanit', sans-serif;
+    border-bottom:2px solid #b0b0b0; 
+    padding-bottom:20px;
+}
+
+header
+{
+    text-align: center;
+}
+
+header nav
+{
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly;
+
+}
+
+header nav a
+{
+    text-decoration:none;
+    font-family: 'Kanit', sans-serif;
+    color:#b0b0b0;
+    border:1px solid #b0b0b0;
+    border-radius:50px;
+    margin:20px;
+    padding:5px 15px;
+}
+header p
+{
+    margin:50px 20%;
+}
+
+.bigimg img
+{
+    width:75%;
+    height:auto;
+    margin:20px 10%;
+    text-align:center;
+
+}
+.exampleprojects
+{
+    display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+    margin:20px 10%;
+}
+
+.exampleprojects img
+{
+    width:100%;
+}
+
+.exampleprojects a
+{
+    color:#b0b0b0;
+    text-decoration: none;
+}
+
+.imgholder
+{
+    width:20%;
+}
+
+h3
+{
+    text-align:center;
+    margin:70px;
+}
+
+footer
+{
+    border-top:2px solid #b0b0b0;
+    margin: 50px;
+    text-align:center;
+}
+
+footer a
+{
+    text-decoration:none;
+    font-family: 'Kanit', sans-serif;
+    color:#b0b0b0;
+    border:1px solid #b0b0b0;
+    border-radius:50px;
+    margin:20px;
+    padding:30px 15px;
+}
+
+@media (max-width:800px)
+{
+    h1 
+    {
+        font-size:110%;;
+    }
+    header nav
+    {
+        display:block;
+    }
+    header nav a 
+    {
+        display: block;
+        width:50%;
+        margin-left:20%;
+    }
+
+    .bigimg img
+    {
+        width:80%;
+    }
+
+    .exampleprojects
+    {
+        display:block;
+        margin-left:20%;
+        text-align:center;
+    }
+
+    .exampleprojects .imgholder
+    {
+        width:20%;
+    }
+
+    .exampleprojects img
+    {
+        width:400%;
+        margin:0;
+    }
+
+    
+}
+
+@media (max-width:500px)
+{
+    h1 
+    {
+        font-size:120%;
+    }
+
+    .bigimg
+    {
+        width:100%;
+    }
+
+
+    footer 
+    {
+        border-top:none;
+        margin:none;
+    }
+
+    footer a
+    {
+        width:10%;
+        border-radius:50%;
+    }
+}
